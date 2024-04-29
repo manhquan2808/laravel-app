@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "php artisan serve",
+        "dev": "vite",
+        "build": "vite build",
+        "pm2": "pm2 start php artisan serve"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^4.0.0-alpha.6",
+        "datatables.net": "^2.0.5",
+        "datatables.net-dt": "^2.0.5",
+        "jquery": "^3.7.1",
+        "pm2": "^5.3.1",
+        "react-bootstrap": "^0.32.1",
+        "sass": "^1.72.0"
+    }
+}
